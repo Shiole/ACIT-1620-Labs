@@ -4,18 +4,25 @@ body {
 
 h1 {
     color: #002642;
-    margin-top: 8%;
+    margin-top: 2em;
+    margin-left: .5em;
+}
+
+a {
+    color: blue;
 }
 
 .navBar {
     background-color: #e59500;
     border-style: dashed;
+    margin-left: -4px;
     position: fixed;
     top: 0;
     width: 100%;
 }
 
 .navBar a {
+    color: white;
     float: left;
     display: block;
     padding: 14px 16px;
@@ -30,6 +37,7 @@ a:hover {
 
 img {
     float: left;
+    padding-left: 1em;
     padding-right: 1em;
     height: auto;
     max-width: 100%;
